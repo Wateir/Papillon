@@ -118,7 +118,7 @@
 						<h2>Passer de Pronote à Skolengo</h2>
 						<p>Charge les messages et devoirs a faire depuis Skolengo à la place de pronote</p>
 					</IonLabel>
-					<IonToggle slot="end" ref="tweakGrades20" @ionChange="changeTick('tweakGrades20')"></IonToggle>
+					<IonToggle slot="end" ref="changeforskolengo" @ionChange="changeTick('tweakGrades20')"></IonToggle>
 				</IonItem>
 
 			<IonList :inset="true" lines="inset">
