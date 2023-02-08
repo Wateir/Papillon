@@ -112,6 +112,14 @@
 					<IonToggle slot="end" ref="groupSubjects" @ionChange="changeGroupSubjects('groupSubjects')"></IonToggle>
 				</IonItem>
 			</IonList>
+			<IonItem>
+					<span class="material-symbols-outlined mdls" slot="start">nest_thermostat_zirconium_eu</span>
+					<IonLabel class="ion-text-wrap">
+						<h2>Passer de Pronote à Skolengo</h2>
+						<p>Charge les messages et devoirs a faire depuis Skolengo à la place de pronote</p>
+					</IonLabel>
+					<IonToggle slot="end" ref="tweakGrades20" @ionChange="changeTick('tweakGrades20')"></IonToggle>
+				</IonItem>
 
 			<IonList :inset="true" lines="inset">
 				<IonItem>
